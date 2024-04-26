@@ -17,7 +17,7 @@ class User_has_ServiceController extends Controller
     {
         $user = User_has_Service:: all();
         $service = Service:: find(1);
-        $modules = User_has_Service::orderBy('id', 'desc')->take(7)->get();
+        $modules = User_has_Service::orderBy('id', 'desc')->take(4)->get();
 
         return view('welcome', compact('user', 'service', 'modules'));
 
@@ -89,7 +89,7 @@ class User_has_ServiceController extends Controller
 
         $informacion = User_has_Service::create([
             'id' => $request->id,
-            'user_iduser' => random_int(min: 0, max: 7),
+            'user_iduser' => random_int(min: 3, max: 7),
             'service_idservice' => 3,
             'date' => Carbon::now(),
             'module' => random_int(min: 1, max: 5),
