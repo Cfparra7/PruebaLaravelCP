@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+para hacer uso de base datos clever cloud utilizar las siguientes credenciales 
+#DB_CONNECTION=mysql
+#DB_HOST=bhz2oqjrto8yqjoi12ar-mysql.services.clever-cloud.com
+#DB_PORT=3306
+#DB_DATABASE=bhz2oqjrto8yqjoi12ar
+#DB_USERNAME=ulglhur3ufcoqq7l
+#DB_PASSWORD=I6fpNt81BVN2PHOceVTV
